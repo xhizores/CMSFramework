@@ -1,0 +1,14 @@
+vendor/
+node_modules/
+.git/
+.gitignore
+.env
+docker-compose.override.yml
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+*.cache
