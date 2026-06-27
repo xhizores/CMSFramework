@@ -2,6 +2,17 @@
 
 A PHP 8.4 CMS framework built from scratch, running on Docker with Nginx and MySQL 8.0.
 
+## What was implemented
+ - A simple MVC for users and products with a relationship of many to many between the users and the products
+ - As a structure you have the Model-View-Controller folders and the Core folder which contains the base extendable classes for each and the Router and Database classes.
+ - I created a docker configuration for easy local development.
+ - I created a migration script for easy database management in bin/migrate.php and all the migrations should be placed in the database/migrations folder.
+ - All the routes are stored in src/routes.php
+ - All the steps to initialise the project are down below.
+
+ ## Total time spent
+  - 2-3 hours with help from ClaudeCode
+
 ## Requirements
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) 24+
